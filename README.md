@@ -23,7 +23,7 @@ This is a ASP.NET Core MVC project utilizing Entity Framework Core to create a E
 
 2.0 - May 2022
 
-## Images of what it should look like can be found in the 'P1images' folder
+# Preview the web app using the preview folder or visit the web app 
 
-License
+## License
 This project uses the following license: MIT License.
