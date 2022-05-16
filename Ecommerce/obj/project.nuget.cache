@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uOaf8BY56z8hyzgrH3ty/7VqbouKzCdFFNTZaAfPSNMofOyjjn5syIjkMui7TN5EcpdNYfenCjQNzeG28Rqybw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Christian\\Desktop\\Code\\EcommerceV2\\P1\\Ecommerce\\Ecommerce.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Christian\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

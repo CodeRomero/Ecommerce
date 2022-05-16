@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "967c8c8f-96ab-4a1d-97b2-d7bbb85a709f": {
+      "ProjectGuid": "967c8c8f-96ab-4a1d-97b2-d7bbb85a709f",
+      "DisplayName": "Ecommerce",
+      "ColorIndex": 0
+    },
+    "01320001-476f-42c9-9419-f67122e63149": {
+      "ProjectGuid": "01320001-476f-42c9-9419-f67122e63149",
+      "DisplayName": "Ecommerce.Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
