@@ -20,6 +20,7 @@ This is a ASP.NET Core MVC project utilizing Entity Framework Core to create a E
 
 ## Versioning
 1.0 - July 2021
+
 2.0 - May 2022
 
 ## Images of what it should look like can be found in the 'P1images' folder
