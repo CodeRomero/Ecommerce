@@ -1,0 +1,106 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Customer\ErrLogin.cshtml" />
+    <Content Remove="Views\Customer\Login.cshtml" />
+    <Content Remove="Views\Customer\LoginCustomer.cshtml" />
+    <Content Remove="Views\Customer\LoginDetails.cshtml" />
+    <Content Remove="Views\Customer\LogSucc.cshtml" />
+    <Content Remove="Views\Customer\OrderHistory.cshtml" />
+    <Content Remove="Views\Customer\OrderHistoryCustomer.cshtml" />
+    <Content Remove="Views\Customer\PrintAllCustomers.cshtml" />
+    <Content Remove="Views\Customer\RegisterNewCustomer.cshtml" />
+    <Content Remove="Views\Store\AddCart.cshtml" />
+    <Content Remove="Views\Store\AddCart2.cshtml" />
+    <Content Remove="Views\Store\AddCart3.cshtml" />
+    <Content Remove="Views\Store\AddCart4.cshtml" />
+    <Content Remove="Views\Store\AddCart5.cshtml" />
+    <Content Remove="Views\Store\AddCart6.cshtml" />
+    <Content Remove="Views\Store\AddtoCart1.cshtml" />
+    <Content Remove="Views\Store\Checkout.cshtml" />
+    <Content Remove="Views\Store\CreateCart.cshtml" />
+    <Content Remove="Views\Store\CreateCart2.cshtml" />
+    <Content Remove="Views\Store\CreateCart3.cshtml" />
+    <Content Remove="Views\Store\CreateCart4.cshtml" />
+    <Content Remove="Views\Store\CreateCart5.cshtml" />
+    <Content Remove="Views\Store\CreateCart6.cshtml" />
+    <Content Remove="Views\Store\ErrLogin.cshtml" />
+    <Content Remove="Views\Store\LoginStore.cshtml" />
+    <Content Remove="Views\Store\LoginSuccessful.cshtml" />
+    <Content Remove="Views\Store\PrintAllStores.cshtml" />
+    <Content Remove="Views\Store\PrintAllStoresModel.cshtml" />
+    <Content Remove="Views\Store\PrintStoresArray.cshtml" />
+    <Content Remove="Views\Store\Register.cshtml" />
+    <Content Remove="Views\Store\SelectStore.cshtml" />
+    <Content Remove="Views\Store\Shop.cshtml" />
+    <Content Remove="Views\Store\StartShopping.cshtml" />
+    <Content Remove="Views\Store\StoreInven1.cshtml" />
+    <Content Remove="Views\Store\StoreInven2.cshtml" />
+    <Content Remove="Views\Store\StoreInven3.cshtml" />
+    <Content Remove="Views\Store\StoreInven4.cshtml" />
+    <Content Remove="Views\Store\StoreInven5.cshtml" />
+    <Content Remove="Views\Store\StoreInven6.cshtml" />
+    <Content Remove="Views\Store\StoreList.cshtml" />
+    <Content Remove="Views\Store\ViewOrder.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Customer\ErrLogin.cshtml" />
+    <None Include="Views\Customer\Login.cshtml" />
+    <None Include="Views\Customer\LoginCustomer.cshtml" />
+    <None Include="Views\Customer\LoginDetails.cshtml" />
+    <None Include="Views\Customer\LogSucc.cshtml" />
+    <None Include="Views\Customer\OrderHistory.cshtml" />
+    <None Include="Views\Customer\OrderHistoryCustomer.cshtml" />
+    <None Include="Views\Customer\PrintAllCustomers.cshtml" />
+    <None Include="Views\Customer\RegisterNewCustomer.cshtml" />
+    <None Include="Views\Store\AddCart.cshtml" />
+    <None Include="Views\Store\AddCart2.cshtml" />
+    <None Include="Views\Store\AddCart3.cshtml" />
+    <None Include="Views\Store\AddCart4.cshtml" />
+    <None Include="Views\Store\AddCart5.cshtml" />
+    <None Include="Views\Store\AddCart6.cshtml" />
+    <None Include="Views\Store\AddtoCart1.cshtml" />
+    <None Include="Views\Store\Checkout.cshtml" />
+    <None Include="Views\Store\CreateCart.cshtml" />
+    <None Include="Views\Store\CreateCart2.cshtml" />
+    <None Include="Views\Store\CreateCart3.cshtml" />
+    <None Include="Views\Store\CreateCart4.cshtml" />
+    <None Include="Views\Store\CreateCart5.cshtml" />
+    <None Include="Views\Store\CreateCart6.cshtml" />
+    <None Include="Views\Store\ErrLogin.cshtml" />
+    <None Include="Views\Store\LoginStore.cshtml" />
+    <None Include="Views\Store\LoginSuccessful.cshtml" />
+    <None Include="Views\Store\PrintAllStores.cshtml" />
+    <None Include="Views\Store\PrintAllStoresModel.cshtml" />
+    <None Include="Views\Store\PrintStoresArray.cshtml" />
+    <None Include="Views\Store\Register.cshtml" />
+    <None Include="Views\Store\SelectStore.cshtml" />
+    <None Include="Views\Store\Shop.cshtml" />
+    <None Include="Views\Store\StartShopping.cshtml" />
+    <None Include="Views\Store\StoreInven1.cshtml" />
+    <None Include="Views\Store\StoreInven2.cshtml" />
+    <None Include="Views\Store\StoreInven3.cshtml" />
+    <None Include="Views\Store\StoreInven4.cshtml" />
+    <None Include="Views\Store\StoreInven5.cshtml" />
+    <None Include="Views\Store\StoreInven6.cshtml" />
+    <None Include="Views\Store\StoreList.cshtml" />
+    <None Include="Views\Store\ViewOrder.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce.BL\Ecommerce.BL.csproj" />
+  </ItemGroup>
+
+</Project>

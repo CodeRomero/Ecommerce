@@ -1,0 +1,15 @@
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.csproj.AssemblyReference.cache
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.AssemblyInfoInputs.cache
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.AssemblyInfo.cs
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.csproj.CoreCompileInputs.cache
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\Ecommerce.BL.deps.json
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\Ecommerce.BL.dll
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\ref\Ecommerce.BL.dll
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\Ecommerce.BL.pdb
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\Ecommerce.Data.dll
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\bin\Debug\net6.0\Ecommerce.Data.pdb
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.csproj.CopyComplete
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.dll
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\ref\Ecommerce.BL.dll
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce.BL\obj\Debug\net6.0\Ecommerce.BL.pdb

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "967c8c8f-96ab-4a1d-97b2-d7bbb85a709f": {
+      "ProjectGuid": "967c8c8f-96ab-4a1d-97b2-d7bbb85a709f",
+      "DisplayName": "Ecommerce",
+      "ColorIndex": 0
+    },
+    "01320001-476f-42c9-9419-f67122e63149": {
+      "ProjectGuid": "01320001-476f-42c9-9419-f67122e63149",
+      "DisplayName": "Ecommerce.Tests",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "64448162-1fdc-4335-aebc-174e45700d4e": {
+      "ProjectGuid": "64448162-1fdc-4335-aebc-174e45700d4e",
+      "DisplayName": "Ecommerce.Data",
+      "ColorIndex": 2
+    },
+    "f55cf095-86ea-4267-8685-d5934ae15725": {
+      "ProjectGuid": "f55cf095-86ea-4267-8685-d5934ae15725",
+      "DisplayName": "Ecommerce.BL",
+      "ColorIndex": 3
+    },
+    "d37cb75f-dc2c-40d8-b997-880cc7b4d01c": {
+      "ProjectGuid": "d37cb75f-dc2c-40d8-b997-880cc7b4d01c",
+      "DisplayName": "Ecommerce.Tests",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
