@@ -87,8 +87,9 @@ namespace Ecommerce.BL
                     Balance = account.Balance,
                     Carts = account.Carts,
                     Orders = account.Orders,
-                    Sessions = account.Sessions
+                    Sessions = account.Sessions,
                 });
+
             }
             catch (DbUpdateException ex)
             {
@@ -129,7 +130,7 @@ namespace Ecommerce.BL
         /// <returns></returns>
         List<Data.Models.Account> GetAccountList(string fName = "", string lName = "");
 
-        #endregion
+
 
         public P1Models.Customer saveCustomer(P1Models.Customer cm)
         {
@@ -191,6 +192,6 @@ namespace Ecommerce.BL
             return customerList;
         }
 
-
+        #endregion
     }
 }

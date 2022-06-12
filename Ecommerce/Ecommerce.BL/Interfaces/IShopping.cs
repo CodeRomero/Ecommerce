@@ -12,12 +12,14 @@ namespace Ecommerce.BL.Interfaces
    public interface IShopping
     {
         #region Store Methods
+
         /// <summary>
         /// 
         /// </summary>
         /// <param name="account"></param>
         /// <returns></returns>
         List<Inventory> ListAllStoreInvens();
+
 
         List<Inventory> ListStoreInven(int storeId);
 

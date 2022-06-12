@@ -6,13 +6,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ecommerce.Data;
+using Ecommerce.Data.Models;
 using Ecommerce.BL.Interfaces;
 
 namespace Ecommerce.BL
 {
     public class Shopping : IShopping
     {
-        private readonly P1TestDbContext _context = new P1TestDbContext();//all stores access DBcontext
+        #region private fields
+
+        private readonly p1mvcecommerceSQLDbContext context;
+        #endregion
+
+        #region Constructor
+        public Shopping(p1mvcecommerceSQLDbContext dbcontext)
+        {
+            context= dbcontext;
+        }
+
+        #endregion
+
+        #region Store methods
+        #endregion
+
+        #region Admin methods
+        #endregion
         public Customer currentcustomer { get; set; }//any given store has a customer shopping at it
         public P1FinalDbContext.Location storechoice;//to store the current store
         public int locnum;

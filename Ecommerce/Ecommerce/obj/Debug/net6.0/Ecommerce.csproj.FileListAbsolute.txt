@@ -61,3 +61,4 @@ C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce\bin\Debug\net
 C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce\bin\Debug\net6.0\Ecommerce.Data.dll
 C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce\bin\Debug\net6.0\Ecommerce.BL.pdb
 C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce\bin\Debug\net6.0\Ecommerce.Data.pdb
+C:\Users\Christian\Desktop\Code\EcommerceV2\P1\Ecommerce\Ecommerce\obj\Debug\net6.0\Ecommerce.MvcApplicationPartsAssemblyInfo.cs

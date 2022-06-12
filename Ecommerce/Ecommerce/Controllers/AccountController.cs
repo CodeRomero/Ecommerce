@@ -3,23 +3,28 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Ecommerce.Data;
+using Ecommerce.Data.Models;
 
-namespace P1Final.Controllers
+namespace Ecommerce.Controllers
 {
-    public class CustomerController : Controller
+    public class AccountController : Controller
     {
-        private readonly P1TestDbContext _context;
-        private readonly ICustomer c;
-        private readonly IStore s;
-        public CustomerController(P1TestDbContext context, ICustomer c, IStore s)
+        private readonly p1mvcecommerceSQLDbContext _context;
+        private readonly Account _account;
+        private readonly IShopping s;
+        public AccountController(p1mvcecommerceSQLDbContext context, Account account)
         {
             _context = context;
-            this.c = c;
+            _account = account;
         }
 
+        public IActionResult AccountLanding()
+        {
+            return View();
+        }
 
-        //POST: CustomerController/RegisterNewCustomer
-        public IActionResult RegisterNewCustomer(P1Models.Customer cm)
+        public IActionResult CreateAccount(Account acc)
         {
             if (!ModelState.IsValid)
             {
@@ -27,37 +32,27 @@ namespace P1Final.Controllers
                 ViewBag.messagefail = "There was an issue.";
             }
 
-            //s.RegisterCustomerAsync();
-
-            // mapp the values unputted by thre user to teh custoemr model from EF/
-
-
-            //1. create a method in your business layer that will do the below action
-            //check
-
-
-            // 2. get some type of confirmation back.. like T/F
-            //check
 
             // 3. render the start page for creating an order.
             ViewBag.messagesucc = "You have successfully created a new account.";
-            return View(c.saveCustomer(cm));
+            return View(_account.saveCustomer(acc));
         }
+
         //GET: Customer/Login
         [HttpGet]
-        public IActionResult LoginCustomer()//make sure controller input == business layer input
+        public IActionResult LoginCustomer()
         {
             return View();
         }
 
-        public IActionResult ErrLogin()//make sure controller input == business layer input
+        public IActionResult ErrLogin()
         {
             return View();
         }
 
         //POST: Customer/Login
         [HttpPost]
-        public IActionResult LoginCustomer(P1Models.Customer cm)//make sure controller input == business layer input
+        public IActionResult LoginCustomer(Account acc)
         {
             if (!ModelState.IsValid)
             {
@@ -74,7 +69,7 @@ namespace P1Final.Controllers
         }
 
         //POST: Customer/Login
-        public IActionResult LogSucc(P1Models.Customer cm)//make sure controller input == business layer input
+        public IActionResult LogSucc(P1Models.Customer cm)
         {
             if (!ModelState.IsValid)
             {
