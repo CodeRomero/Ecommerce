@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Ecommerce.Models;
 using Microsoft.AspNetCore.Http;
 
-namespace P1Final.Controllers
+namespace Ecommerce.c
 {
     public class StoreController : Controller
     {
